@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import SearchBar from './SearchBar';
 import Results from './Results';
 
-class Search extends React.Component {
+export default class Search extends Component {
 
 	constructor(props){
 		super(props);
@@ -27,4 +27,3 @@ class Search extends React.Component {
 	}
 }
 
-export default Search;

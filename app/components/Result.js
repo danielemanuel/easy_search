@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 
 
-class Result extends Component {
+export default class Result extends Component {
 
 	displayPrice(price) {
 		return (price / 100.00)
@@ -20,4 +20,3 @@ class Result extends Component {
 	}
 }
 
-export default Result;

@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 import Result from './Result';
 
-class Results extends Component {
+export default class Results extends Component {
 
 	constructor(props) {
 		super(props);
@@ -34,4 +34,3 @@ class Results extends Component {
 	}
 }
 
-export default Results;

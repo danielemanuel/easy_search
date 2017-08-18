@@ -1,11 +1,10 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 
-class SearchBar extends React.Component {
+export default class SearchBar extends Component {
 
 	handleQuery(event){
 		this.props.onQuery(event.target.value)
-		console.log('QUERYYYY: ' + event.target.value )
 	}
 
 	render() {
@@ -16,7 +15,5 @@ class SearchBar extends React.Component {
 			</div>
 		)
 	}
-
 }
 
-export default SearchBar;
