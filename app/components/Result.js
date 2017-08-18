@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import ReactDOM from 'react-dom';
 
-
 export default class Result extends Component {
 
 	displayPrice(price) {
