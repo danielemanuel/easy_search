@@ -20,6 +20,6 @@
 
 ![products](images/products.png)
 
-* You can choose you favourite products from a wide range of products
+* You can choose you favourite product from a wide range of products
 
 ![product](images/product.png)
